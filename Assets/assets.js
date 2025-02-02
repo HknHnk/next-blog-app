@@ -1,34 +1,133 @@
-import pic_1 from './Biology.jpeg'
-import pic_2 from './Studying.jpeg'
+import Biologyx from './Biology.jpeg'
+import Studyingx from './Studying.jpeg'
 import icon from './icon.jpg'
 import arrow from './arrow.png'
-import pic_3 from './Physics.jpeg'
+import Physicsx from './Physics.jpeg'
 import profile_icon from './profile_icon.png'
+import arrow1 from './arrow1.png'
+import cc from './cc.png'
+import ig from './ig_icon.jpeg'
+import teams from './teams_icon.png'
+import add_icon from './add_icon.png'
+import upload from './Upload.png'
+import stats from './Stats.png'
 
 export const assets = {
     icon,
-    arrow  
+    arrow,
+    cc,
+    ig,
+    teams,
+    add_icon,
+    upload,
+      
     }
     
     export const blog_data =[{
-        id:1,
+        id: 1,
         title: "Physics",
         description: "AS Levels",
-        image:icon,
+        image:'/Physics.jpeg',
         date:Date.now(),
         category: "Notes",
-        author: "Xingzhi Lu",
+        author: "unknown",
         author_img:profile_icon
     },
     {
-        id:2,
+        id: 2,
         title: "Biology",
         description:"AS Levels",
-        image:pic_1,
+        image:'/Biology.jpeg',
+        date:Date.now(),
+        category: "Notes",
+        author: "Joshua Ng",
+        author_img:profile_icon
+
+
+    },
+    {
+        id: 3,
+        title: "Chemistry",
+        description:"AS levels",
+        image: '/Chem.jpg',
+        date:Date.now(),
+        category: "Notes",
+        author: "unknown",
+        author_img:profile_icon
+    },
+    {
+        id: 4,
+        title: "Math",
+        description:"AS levels",
+        image:'/Math.jpeg',
+        date:Date.now(),
+        category: "Notes",
+        author: "unknown",
+        author_img:profile_icon
+    },
+    {
+        id: 5,
+        title: "Further Maths",
+        description:"A levels",
+        image:'/FM.jpeg',
+        date:Date.now(),
+        category: "Notes",
+        author: "unkown",
+        author_img:profile_icon
+    },
+    {
+        id: 6,
+        title: "English",
+        description:"A levels",
+        image:'/EngL.jpeg',
+        date:Date.now(),
+        category: "Notes",
+        author: "unknown",
+        author_img:profile_icon
+    },
+    {
+        id: 7,
+    title: "Economics",
+    description:"GCSEs",
+    image:'/Econ.jpeg',
+    date:Date.now(),
+    category: "Notes",
+    author: "unkown",
+    author_img:profile_icon
+    },
+    {
+        id: 8,
+        title: "Econ MCQ generator",
+        description:"GCSEs",
+        image:'/emcq.png',
+        date:Date.now(),
+        category: "Tools/Utility",
+        author: "unkown",
+        author_img:profile_icon
+    },
+    {
+        id: 9,
+        title: "Physics Olympiad",
+        description:"BPho (6.2)",
+        image:'/olym.jpg',
+        date:Date.now(),
+        category: "Extracurricular",
+        author: "unknown",
+        author_img:profile_icon
+    },
+    {    
+        id: 10,
+        title: "Statistics and Mechanics",
+        description:"A Level Maths single/double",
+        image:'/Stats.png',
         date:Date.now(),
         category: "Notes",
         author: "Xingzhi Lu",
-        author_img:profile_icon
+        author_img:profile_icon,
+        pdf: '/pdfs/Applied ALL 1.pdf'
+    },
+    ]
+    
+    
 
-    }
-]
+
