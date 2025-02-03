@@ -7,9 +7,9 @@ import Image from 'next/image'
 import Footer from '@/Components/Footer'
 
 const Page = () => {
-    const router = useRouter()
-    const { id, pdf } = router.query
-    const note = blog_data.find(item => item.id === parseInt(id))
+    const router = useRouter();
+    const { id, pdf } = router.query;
+    const note = blog_data.find(item => item.id === parseInt(id));
 
     if (!note) {
         return <p>Note not found</p>
