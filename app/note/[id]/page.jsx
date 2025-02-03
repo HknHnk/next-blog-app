@@ -23,7 +23,7 @@ const Page = () => {
                 </Link>
                 <button className='flex items-center gap-2 font-medium py-1 px-3 sm:py-3 sm:px-6 border border-black shadow-[-7px_7px_0px_#000000]'>
                     Get start <Image src={assets.arrow} width={20} height={20} alt='Arrow' />
-                </button>
+                </button>E
             </div>
             <div className='text-center my-24'>
                 <h1 className='text-2xl sm:text-5xl font-semibold max-w-[700px] mx-auto'>{note.title}</h1>
